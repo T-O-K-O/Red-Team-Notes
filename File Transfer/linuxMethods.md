@@ -1,11 +1,11 @@
 # Linux File Transfer Methods
 
-## Wget
+### Wget
 ```
 wget [URL] -O [OUTPUT FILE]
 ```
-## cURL
+### cURL
 ```
 curl -o [OUTPUT FILE] [URL]
 ```
-##
+###
