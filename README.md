@@ -3,13 +3,13 @@
 Concatenation of Tips, Tricks, and Scripts. 
 
 Current Topics:
-File Transfer
+- File Transfer
 
 Future Adds:
-Priv Esc
-  Linux
-  Windows
-Enum
-  nmap
-  gobuster
-  wfuzz
+- Priv Esc
+  - Linux
+  - Windows
+- Enum
+  - nmap
+  - gobuster
+  - wfuzz
