@@ -5,6 +5,12 @@
 ```
 python3 -m http.server [PORT]
 ```
+```
+python -m SimpleHTTPServer [PORT]
+```
+```
+php -S $[IP]:[PORT]
+````
 ### Destination Machine
 #### Wget
 ```
