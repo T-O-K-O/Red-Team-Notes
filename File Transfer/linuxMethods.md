@@ -1,10 +1,16 @@
 # Linux File Transfer Methods
 
-## Wget
+## HTTP
+### Source Machine
+```
+python3 -m http.server [PORT]
+```
+### Destination Machine
+#### Wget
 ```
 wget [URL] -O [OUTPUT FILE]
 ```
-## cURL
+#### cURL
 ```
 curl -o [OUTPUT FILE] [URL]
 ```
