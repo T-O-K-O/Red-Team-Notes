@@ -38,3 +38,16 @@ cat [FILE] | base64 -w 0; echo
 ```
 echo [CLIPBOARD] | base64 -d > [OUTPUT FILE]
 ```
+## Web Server Compromise
+### Source Machine (Web Server)
+Move the file into the location where the webserver is hosting the files.
+Example
+```
+mv [FILE] /var/www/
+```
+### Destination Machine
+Navigate to the website and the directory with the same name as the file.
+Example
+```
+http://[IP]/[FILE]
+```
